@@ -14,7 +14,7 @@ public class LibraryManagementSystem {
     
     public static void main(String[] args) throws IOException{
         //scan database and set up
-        File logintest=new File("C:\\JavaOOP\\project\\LibraryManagementSystem\\src\\librarymanagementsystem\\logintest.txt");
+        File logintest=new File("C:\\JavaOOP\\project\\logintest.txt");
         Scanner file=new Scanner(logintest);
         String[][] loginarr=new String[14][3];
         while(file.hasNext()){
@@ -41,7 +41,7 @@ public class LibraryManagementSystem {
         users.add(new login(loginarr[12][0],loginarr[12][1],loginarr[12][2]));
         users.add(new login(loginarr[13][0],loginarr[13][1],loginarr[13][2]));
         
-        File booktest= new File("C:\\JavaOOP\\project\\LibraryManagementSystem\\src\\librarymanagementsystem\\booktest.txt");
+        File booktest= new File("C:\\JavaOOP\\project\\booktest.txt");
         Scanner file2= new Scanner(booktest);
         String[][] bookarr=new String[20][10];
         while(file2.hasNext()){
