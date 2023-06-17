@@ -36,51 +36,30 @@ public final class bookshelf {
     public void setTitle(String title){
         Title=title;
     }
-
-    /**getTitle()
-     *
-     * @return String
-     */
     public String getTitle(){
         return Title;
     }
     public void setISBN(String isbn){
         ISBN=isbn;
     }
-    /**getISBN()
-     *
-     * @return String
-     */
     public String getISBN(){
         return ISBN;
     }
     public void setType(String type){
         Type=type;
     }
-    /**getType()
-     *
-     * @return String
-     */
     public String getType(){
         return Type;
     }
     public void setAuthor(String author){
         Author=author;
     }
-    /**getAuthor()
-     *
-     * @return String
-     */
     public String getAuthor(){
         return Author;
     }
     public void setPublisher(String publisher){
         Publisher=publisher;
     }
-    /**getPublisher()
-     *
-     * @return String
-     */
     public String getPublisher(){
         return Publisher;
     }
