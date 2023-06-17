@@ -1,0 +1,5 @@
+User: candy
+Total borrow books: 1
+Detail:
+[Title: In_emergency_break_glass  Author: Nate_Anderson  Number: A3016042  Receive place: Banqiao
+]
